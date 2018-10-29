@@ -1,0 +1,26 @@
+---
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Cell
+    number: 41-995203400
+  addresses:
+  - !ruby/object:Address
+    kind: Home
+    street_1: Rua Carlos Dietzsch
+    street_2: '541'
+    city: Curitiba
+    state: Paraná
+    postal_code: 80330-000
+  first_name: Bruno
+  middle_name: Gonzaga
+  last_name: Santos
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Home
+    number: 41-99187-1414
+  addresses: []
+  first_name: Alzi
+  middle_name: A
+  last_name: Rompala
